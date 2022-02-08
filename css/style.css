@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+body {
+  font-size: 18px;
+}
+
+.header{
+  float: left;
+  background-color: rgb(255, 255, 255);
+  color: rgb(35, 205, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.06% 5%;
+  font-size: 30px;
+  border: 10px groove #e78e28;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: #888;
+  padding: 1.5% 5%;
+  font-size: 30px;
+}
+
+nav ul li {
+  font-size: 1.2em;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main{
+  background-color: rgb(255, 255, 255);
+}
+
+#top {
+  height: 600px;
+  background: url(../img/saralyjunp.png) no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.top_wrapper {
+  padding: 1.5%;
+  margin-right: 20%;
+}
+
+.top_wrapper h1 {
+  font-size: 5em;
+  color: #fff;
+  text-shadow: rgba(0, 0, 0, 0.5) 10px 10px 4px;
+}
+
+#service{
+  width: 80%;
+  margin: 5% auto;
+}
+
+.section_title{
+  font-size: 2.5em;
+  text-align: center;
+  color: #75d5ff;
+  margin-bottom: 5%;
+}
+
+.service_wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service_left img{
+  width: 80%;
+  height: auto;
+}
+
+.service_right h3{
+font-size: 2.5em;
+color: #f32b2b;
+padding: 2.5% 0;
+
+}
+
+.service_right p{
+  font-size: 1.5em;
+  line-height: 2em;
+  color: #555;
+  width: 600px;
+}
+
+.border-line{
+  border-bottom:3px solid #da1421
+}
+
+.stripe-inner {
+  background: #fff;
+  padding: 20px;
+  border: double 3px;
+  border-width: 1ex;
+}
+
+#news{
+  width: 80%;
+  height: 50%;
+  margin: 5% auto;
+  background-color: #efb2c8;
+  border-radius: 450px 500px;
+  display: block;
+}
+
+.news_wrapper{
+  width: 40%;
+  margin: 0 auto;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+#price{
+  width: 80%;
+  margin: 5% auto;
+
+}
+
+.price_wrapper table{
+  border: solid #000000 10px;
+  width: 100%;
+  text-align: center; 
+  background-color: rgb(225, 233, 122); 
+}
+
+.price_wrapper table tr{
+  border: solid #000000 3px;
+  padding: 10%;
+  font-size: 50px;
+}
+
+.price_wrapper table th{
+  border: solid #000000 3px;
+  padding: 1%;
+}
+
+.price_wrapper table td{
+  border: solid #000000 3px;
+  padding: 1%;
+}
+
+#contact{
+  background: rgb(105, 98, 98);
+}
+
+#contact h2{
+  padding: 5% 0;
+  margin: 0;
+}
+
+.form{
+  width: 70%;
+  margin: 0 auto;
+}
+
+label{
+  display: inline-block;
+  width: 30%;
+  line-height: 2;
+}
+
+input,textarea{
+  box-sizing: border-box;
+  border: solid #ddd 1px;
+  width: 60%;
+  margin-bottom: 2.5%;
+}
+
+input{
+  padding: 1%;
+}
+
+textarea{
+  vertical-align: top;
+  height: 200px;
+}
+
+.button_submit{
+  text-align: center;
+}
+
+.button{
+  padding: 1.5% 5%;
+  background-color: rgb(252, 0, 0);
+  margin: 5% 0;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+}
+
+#footer{
+  background-color: #444;
+  padding: 5%;
+text-align: center;
+color: #fff;
+}
